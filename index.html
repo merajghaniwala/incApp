@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Hello world</title>
+		<script language="javascript">
+			var cnt = 1;
+			function inc()
+			{
+				document.getElementById("cnt").innerHTML="Welcome "+cnt;
+				cnt++;				
+			}
+		</script>
+	</head>
+	<body>
+		<h1 style="text-align:center">Hello World</h1><br />
+		<p id="cnt">Welcome</p>
+		<input type="button" value="Click To Increase" onclick="inc();" />
+	</body>
+</html>
